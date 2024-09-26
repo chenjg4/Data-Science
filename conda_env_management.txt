@@ -1,0 +1,11 @@
+conda create --name kaggle_env
+conda activate kaggle_env
+conda install python
+conda install pandas
+conda install ipykernel
+
+pip install kagglehub   ### for kaggle access
+
+pip install ipywidgets
+conda install -c conda-forge ipywidgets
+

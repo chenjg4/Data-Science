@@ -8,3 +8,9 @@ Statistic:
   leetcode
   Machine learning & models
   A/B testing
+
+
+dataset:
+https://www.kaggle.com/datasets/abdelhamidzakaria/european-license-plates-dataset/data
+
+
