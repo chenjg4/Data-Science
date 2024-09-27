@@ -9,3 +9,7 @@ pip install kagglehub   ### for kaggle access
 pip install ipywidgets
 conda install -c conda-forge ipywidgets
 
+conda install matplotlib
+
+conda install anaconda::seaborn
+
