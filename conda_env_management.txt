@@ -9,9 +9,16 @@ pip install kagglehub   ### for kaggle access
 pip install ipywidgets
 conda install -c conda-forge ipywidgets
 
+<<<<<<< HEAD
 
 pip install kaggle
 
 kaggle competitions download -c 30-days-of-ml
 
 ## https://github.com/Kaggle/kaggle-api/blob/main/docs/README.md
+=======
+conda install matplotlib
+
+conda install anaconda::seaborn
+
+>>>>>>> f7680473f58f8f98295e11df65c7029e88bb080b
