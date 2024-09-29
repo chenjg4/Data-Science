@@ -26,4 +26,12 @@ conda install plotly
 
 !pip install autoviz>=0.0.71
 
+!pip install autoviz
+
 # !pip install sweetviz
+
+%matplotlib inline
+%pylab inline
+
+import pylab as p
+p.show()
