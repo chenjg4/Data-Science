@@ -3,8 +3,8 @@
 import pandas as pd
 import numpy as np
 import os
-
 import matplotlib.pyplot as plt
+
 import seaborn as sns
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
@@ -14,7 +14,16 @@ import plotly.offline
 
 import kagglehub
 
+
+### code header backup
 # kagglehub.login()
+
+# from importlib import reload
+# pd.set_option('display.max_rows', 500)
+# pd.set_option('display.max_columns', 500)
+# pd.set_option('display.max_colwidth', 1000)
+
+###
 
 
 def data_download(input_path,version=1):
@@ -98,3 +107,4 @@ def visualize_features_vs_target_label(df_data, label, feature_list, n_cols=3):
                   title_text="Features-to-Target Relations")
 
     fig.show()
+

@@ -35,3 +35,29 @@ conda install plotly
 
 import pylab as p
 p.show()
+
+https://github.com/lmcinnes/umap
+
+conda install -c conda-forge -c nvidia rapids
+
+conda install -c rapidsai -c conda-forge -c nvidia rapids=24.08 cuda-version>='12.0,<=12.5'
+https://docs.rapids.ai/install/#selector
+
+
+conda create -n rapids_env -c rapidsai -c conda-forge -c nvidia rapids=24.08 python=3.11
+conda install --solver=libmamba -c rapidsai -c conda-forge -c nvidia rapids=24.08
+libmamba install -c rapidsai -c conda-forge -c nvidia rapids=24.08
+
+
+
+pip install --extra-index-url=https://pypi.nvidia.com cudf-cu12==24.8.* dask-cudf-cu12==24.8.* cuml-cu12==24.8.* cugraph-cu12==24.8.* cuspatial-cu12==24.8.* cuproj-cu12==24.8.* cuxfilter-cu12==24.8.* cucim-cu12==24.8.* pylibraft-cu12==24.8.* raft-dask-cu12==24.8.* cuvs-cu12==24.8.* nx-cugraph-cu12==24.8.*
+
+
+pip install nvidia-pyindex
+pip install nvidia-cuda-runtime-cu11
+
+conda install cuda -c nvidia
+
+conda init powershell
+
+get_ipython().kernel.do_shutdown(restart=True)   ## there is error to restart kernel
